@@ -45,18 +45,28 @@
                                     <action selector="textFieldDoneEditing:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="os3-jj-MUt"/>
                                 </connections>
                             </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hCb-ns-35v">
+                                <rect key="frame" x="180" y="392" width="240" height="128"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Qn5-Ks-Tbm" firstAttribute="top" secondItem="h8O-xK-dsx" secondAttribute="bottom" constant="73" id="3bk-0Z-OAX"/>
+                            <constraint firstItem="hCb-ns-35v" firstAttribute="top" secondItem="Qn5-Ks-Tbm" secondAttribute="bottom" constant="8" symbolic="YES" id="5l9-lS-QYt"/>
                             <constraint firstItem="h8O-xK-dsx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6lZ-Pd-c82"/>
                             <constraint firstItem="Qn5-Ks-Tbm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DBj-TM-IS9"/>
+                            <constraint firstItem="hCb-ns-35v" firstAttribute="leading" secondItem="Qn5-Ks-Tbm" secondAttribute="leading" id="Gyy-Fj-Igj"/>
                             <constraint firstItem="XbF-wr-92Y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HGf-gO-hQA"/>
                             <constraint firstItem="h8O-xK-dsx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Lyq-qA-het"/>
                             <constraint firstItem="XbF-wr-92Y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MwP-Y3-b2b"/>
+                            <constraint firstItem="hCb-ns-35v" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VIm-Vv-3gu"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="hCb-ns-35v" secondAttribute="bottom" constant="36" id="YQF-s4-wlL"/>
+                            <constraint firstItem="Qn5-Ks-Tbm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aZ2-ex-9H1"/>
                             <constraint firstItem="Qn5-Ks-Tbm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fa0-Na-ivG"/>
                             <constraint firstItem="h8O-xK-dsx" firstAttribute="top" secondItem="XbF-wr-92Y" secondAttribute="bottom" constant="53" id="hLg-4Q-o9R"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Qn5-Ks-Tbm" secondAttribute="bottom" constant="172" id="hMP-FB-Q4y"/>
+                            <constraint firstItem="XbF-wr-92Y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lWA-Tx-r1j"/>
+                            <constraint firstItem="h8O-xK-dsx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mzM-rf-7oI"/>
                             <constraint firstItem="h8O-xK-dsx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rEP-5Z-zz0"/>
                             <constraint firstItem="XbF-wr-92Y" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="15" id="wZg-JB-V0z"/>
                             <constraint firstItem="XbF-wr-92Y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xCi-gC-3y9"/>
@@ -72,6 +82,7 @@
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="ISBN" destination="h8O-xK-dsx" id="6MW-gv-fz8"/>
+                        <outlet property="image" destination="hCb-ns-35v" id="M2c-Xq-h3u"/>
                         <outlet property="textView" destination="Qn5-Ks-Tbm" id="Dr9-iN-4V0"/>
                     </connections>
                 </viewController>
